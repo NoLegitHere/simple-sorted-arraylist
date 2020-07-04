@@ -21,7 +21,7 @@ public class ArrayList extends Module {
 	
 	@EventTarget
 	public void onRender(Event2D e) {
-		// if you dont want this show on F3
+		// if you dont want this show on debug screen
 		if(mc.gameSettings.showDebugInfo)
 			return;
 		
